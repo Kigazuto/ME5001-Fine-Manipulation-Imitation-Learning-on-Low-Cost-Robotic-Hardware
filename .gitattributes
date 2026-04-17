@@ -1,0 +1,56 @@
+# Copyright 2024 The HuggingFace Inc. team. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+*.memmap filter=lfs diff=lfs merge=lfs -text
+*.stl filter=lfs diff=lfs merge=lfs -text
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.arrow filter=lfs diff=lfs merge=lfs -text
+*.json !text !filter !merge !diff
+media/lerobot-logo-light.png filter=lfs diff=lfs merge=lfs -text
+media/aloha/follower_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/aloha/follower_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/lerobot-logo-thumbnail.png filter=lfs diff=lfs merge=lfs -text
+media/wandb.png filter=lfs diff=lfs merge=lfs -text
+media/gym/pusht_diffusion.gif filter=lfs diff=lfs merge=lfs -text
+media/aloha/leader_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/aloha/leader_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/koch/follower_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/koch/follower_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/gym/aloha_act.gif filter=lfs diff=lfs merge=lfs -text
+media/aloha/leader_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/koch/follower_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/koch/leader_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/gym/simxarm_tdmpc.gif filter=lfs diff=lfs merge=lfs -text
+media/koch/leader_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/aloha/follower_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/koch/leader_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/lekiwi/kiwi.webp filter=lfs diff=lfs merge=lfs -text
+media/lekiwi/mobile_calib_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/lekiwi/mobile_calib_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/follower_initial.webp filter=lfs diff=lfs merge=lfs -text
+media/lekiwi/motor_ids.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/follower_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/lekiwi/mobile_calib_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/follower_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/leader_rotated.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/follower_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/moss/leader_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/so100/follower_initial.webp filter=lfs diff=lfs merge=lfs -text
+media/so100/follower_rest.webp filter=lfs diff=lfs merge=lfs -text
+media/so100/leader_follower.webp filter=lfs diff=lfs merge=lfs -text
+media/so100/follower_zero.webp filter=lfs diff=lfs merge=lfs -text
+media/tutorial/img10.jpg filter=lfs diff=lfs merge=lfs -text
+media/tutorial/img11.jpg filter=lfs diff=lfs merge=lfs -text
+media/tutorial/visualize_dataset_html.webp filter=lfs diff=lfs merge=lfs -text
